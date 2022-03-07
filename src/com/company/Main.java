@@ -4,12 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 	/* write your code here
-        Create two unrelated classes that represent moving things (for example, Dog and Airplane).
-        Give each of them their own superclass (for example, in the case of Dog, the superclass might be Animal, while
-        in the case of Airplane, the superclass might be Vehicle).
+
+
         Give all of these classes some properties and methods as you see fit.
-                Create an interface named Mover with a single method named move. The move method should return a number
-                 representing the speed at which the thing is moving.
+
         Make the subclasses implement the Mover interface. The move method should print something to the screen to
         indicate that the thing is moving, providing whatever level of detail feels appropriate.
         Make a RadarSpeedGun class. The class should have as a property a list of moving things.
